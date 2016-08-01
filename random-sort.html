@@ -27,10 +27,10 @@
 <script type="text/javascript">
     var oul=$('.ul li');
     // console.log(oul);
-    function randomArray(a,b) {
+    function rdn(a,b) {
       return Math.random() > 0.5 ? -1 : 1;
     }
-    oul.sort(randomArray);
+    oul.sort(rdn);
     $('.clone-ul').append(oul.clone());
 </script>
 </body>
